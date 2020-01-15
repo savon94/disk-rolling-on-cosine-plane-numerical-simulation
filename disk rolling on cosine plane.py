@@ -260,11 +260,7 @@ def animate(i):
 
     
 
-anim = FuncAnimation(fig,
-                     animate,
-                     frames=np.arange(0, len(List), skip),
-                     init_func=init_func,
-                     interval=2)
+anim = FuncAnimation(fig,animate,frames=np.arange(0, len(List), skip),init_func=init_func,interval=2)
 plt.show()
 
 
