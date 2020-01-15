@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from math import sin 
 from math import cos
 from matplotlib.animation import FuncAnimation
-import matplotlib.patches as patches
+
 
 #parameter
 m1 = 100      #Kg
